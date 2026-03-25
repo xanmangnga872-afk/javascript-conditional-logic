@@ -1,5 +1,18 @@
 function calculateStudentGrade(score) {
   // Start coding here
+  let Grades 
+  if (score <= 59) {
+    Grades = 'Grade E'
+  }else if (score >= 60 && score <= 69 ) {
+    Grades = 'Grade D'
+  }else if (score >= 70 && score <= 79 ) {
+    Grades = 'Grade C'
+  }else if (score >= 80 && score <= 89 ) {
+    Grades = 'Grade B'
+  }else if (score >= 90 && score <= 100 ) {
+    Grades = 'Grade A'
+  }
+  return Grades
 }
 
 // Example case
